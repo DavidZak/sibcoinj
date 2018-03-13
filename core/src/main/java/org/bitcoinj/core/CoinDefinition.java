@@ -32,6 +32,7 @@ public class CoinDefinition {
         Blockr,
         Abe,
         Cryptoid,
+        Sibcoin
     };
     public static final UnspentAPIType UnspentAPI = UnspentAPIType.Cryptoid;
 
