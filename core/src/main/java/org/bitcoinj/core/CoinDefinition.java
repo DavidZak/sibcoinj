@@ -55,7 +55,7 @@ public class CoinDefinition {
 
     public static boolean checkpointFileSupport = true;
 
-    public static final int TARGET_TIMESPAN = (int)(24 * 60 * 60);  // 24 hours per difficulty cycle, on average.
+    public static final int TARGET_TIMESPAN = (int)(24 * 60 * 60) * (31 * 2);  // 24 hours per difficulty cycle, on average.
     public static final int TARGET_SPACING = (int)(5 * 60);  // 2.5 minutes seconds per block.
     public static final int INTERVAL = TARGET_TIMESPAN / TARGET_SPACING;  //57 blocks
 
@@ -109,8 +109,8 @@ public class CoinDefinition {
 
     //Genesis Block Information from main.cpp: LoadBlockIndex
     static public long genesisBlockDifficultyTarget = (0x1e0ffff0L);         //main.cpp: LoadBlockIndex
-    static public long genesisBlockTime = 1510596000L;                       //main.cpp: LoadBlockIndex
-    static public long genesisBlockNonce = (149358);                         //main.cpp: LoadBlockIndex
+    static public long genesisBlockTime = 1516459318L;                       //main.cpp: LoadBlockIndex
+    static public long genesisBlockNonce = (2960513);                         //main.cpp: LoadBlockIndex
     //static public String genesisHash = "00000e844873ac38494c38c7f5e1f1fa79d2e334ad8be676e5d8d1db6edaba24"; //main.cpp: hashGenesisBlock
     static public String genesisHash = "00000251edd63ccb47baf6bc379a892f90c567489cff8982fc6ce50f9f545869";
     //static public String genesisMerkleRoot = "f70829504e50b5f779431b63f45df2b3149b287e77800605a2cd45808c1ef3ca";
@@ -189,9 +189,12 @@ public class CoinDefinition {
     public static final String TESTNET_SATOSHI_KEY = "0479d64291075c43fc83578afd519b1bc6944332f0d9f7631393113d2cbe125160997da610dc948d4dd1e5ce53552f6242eaa7b97c0da48f82c2531a91191e8336";
 
     /** The string returned by getId() for the main, production network where people trade things. */
-    public static final String ID_MAINNET = "org.nummi.production";
+    //public static final String ID_MAINNET = "org.nummi.production";
     /** The string returned by getId() for the testnet. */
-    public static final String ID_TESTNET = "org.nummi.test";
+    //public static final String ID_TESTNET = "org.nummi.test";
+    public static final String ID_MAINNET = "main";
+    /** The string returned by getId() for the testnet. */
+    public static final String ID_TESTNET = "test";
     /** Unit test network. */
     public static final String ID_UNITTESTNET = "com.google.darkcoin.unittest";
 
