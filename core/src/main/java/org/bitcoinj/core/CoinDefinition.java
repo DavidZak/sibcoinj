@@ -34,7 +34,7 @@ public class CoinDefinition {
         Cryptoid,
         Sibcoin
     };
-    public static final UnspentAPIType UnspentAPI = UnspentAPIType.Cryptoid;
+    public static final UnspentAPIType UnspentAPI = UnspentAPIType.Sibcoin;
 
     public static final String BLOCKEXPLORER_BASE_URL_PROD = "http://explorer.dash.org/";    //blockr.io
     //public static final String BLOCKEXPLORER_BASE_URL_PROD = "http://91.228.155.20:3001";    //blockr.io
