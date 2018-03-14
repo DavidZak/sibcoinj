@@ -189,12 +189,9 @@ public class CoinDefinition {
     public static final String TESTNET_SATOSHI_KEY = "0479d64291075c43fc83578afd519b1bc6944332f0d9f7631393113d2cbe125160997da610dc948d4dd1e5ce53552f6242eaa7b97c0da48f82c2531a91191e8336";
 
     /** The string returned by getId() for the main, production network where people trade things. */
-    //public static final String ID_MAINNET = "org.nummi.production";
+    public static final String ID_MAINNET = "org.nummi.production";
     /** The string returned by getId() for the testnet. */
-    //public static final String ID_TESTNET = "org.nummi.test";
-    public static final String ID_MAINNET = "mainnet";
-    /** The string returned by getId() for the testnet. */
-    public static final String ID_TESTNET = "testnet";
+    public static final String ID_TESTNET = "org.nummi.test";
     /** Unit test network. */
     public static final String ID_UNITTESTNET = "com.google.darkcoin.unittest";
 
