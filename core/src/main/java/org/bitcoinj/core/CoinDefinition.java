@@ -77,7 +77,7 @@ public class CoinDefinition {
     public static final long DEFAULT_MIN_TX_FEE = 10000;   // MIN_TX_FEE
     public static final long DUST_LIMIT = 5460; //Transaction.h CTransaction::GetDustThreshold for 10000 MIN_TX_FEE
     public static final long INSTANTX_FEE = 100000; //0.001 DASH (updated for 12.1)
-    public static final boolean feeCanBeRaised = false;
+    //public static final boolean feeCanBeRaised = false;
 
     //
     // Dash 0.12.1.x
@@ -179,6 +179,10 @@ public class CoinDefinition {
             //"testnet-seed.sibcoin.net",
 //            "testnet-seed.darkcoin.qa",
 //            "23.23.186.131"
+            //"nummi.org",
+            "91.228.155.20",
+            //"seed.nummi.org",
+            "91.228.153.32"
     };
     //from main.h: CAlert::CheckSignature
     public static final String SATOSHI_KEY = "0426af3a693d83e45eca2c3faab1157c0294ac7de5b0ae4cefe8d2b98370a8f50ef1653fb46142d7d2cae61cdb57f628193df1a55f49f547458ab909210fcd5cde";
