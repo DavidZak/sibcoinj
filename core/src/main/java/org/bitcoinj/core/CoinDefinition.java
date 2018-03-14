@@ -192,9 +192,9 @@ public class CoinDefinition {
     //public static final String ID_MAINNET = "org.nummi.production";
     /** The string returned by getId() for the testnet. */
     //public static final String ID_TESTNET = "org.nummi.test";
-    public static final String ID_MAINNET = "main";
+    public static final String ID_MAINNET = "mainnet";
     /** The string returned by getId() for the testnet. */
-    public static final String ID_TESTNET = "test";
+    public static final String ID_TESTNET = "testnet";
     /** Unit test network. */
     public static final String ID_UNITTESTNET = "com.google.darkcoin.unittest";
 
