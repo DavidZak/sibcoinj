@@ -13,7 +13,7 @@ public class CoinDefinition {
 
 
     public static final String coinName = "Nummi";
-    public static final String coinTicker = "NUMMI";
+    public static final String coinTicker = "NUM";
     public static final String coinURIScheme = "nummi";
     public static final String cryptsyMarketId = "155";
     public static final String cryptsyMarketCurrency = "BTC";
