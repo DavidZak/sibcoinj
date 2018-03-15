@@ -84,6 +84,9 @@ public class MainNetParams extends AbstractBitcoinNetParams {
         genesisBlock.setNonce(CoinDefinition.genesisBlockNonce);
 
         String genesisHash = genesisBlock.getHashAsString();
+
+        System.out.println("---- genesis hash main ---- " + genesisHash);
+
         checkState(genesisHash.equals(CoinDefinition.genesisHash));
     }
 
