@@ -13,7 +13,7 @@ public class CoinDefinition {
 
 
     public static final String coinName = "Nummi";
-    public static final String coinTicker = "NUM";
+    public static final String coinTicker = "NUMMI";
     public static final String coinURIScheme = "nummi";
     public static final String cryptsyMarketId = "155";
     public static final String cryptsyMarketCurrency = "BTC";
@@ -117,11 +117,13 @@ public class CoinDefinition {
     static public String genesisMerkleRoot = "160cde32a85bf2731eb2cbdb1c7329a0a8560bc8d2ea30ba4792f464f2fb1cdd";
     static public int genesisBlockValue = 20;                                                              //main.cpp: LoadBlockIndex
     //taken from the raw data of the block explorer
-    //static public String genesisTxInBytes = "04ffff001d0104234e756d6d6920446576656c6f706d656e74205374617274732030312f31302f32303137";   //"Nummi Development Starts 01/10/2017"
-    static public String genesisTxInBytes = "04c862010e62c8fe06845532b617db0a011a885767f1476d22d9e73e3fabc830a9606df7d4549b25e1162aaee619dbf98d09e53899ada5743aefb8afb7fde3f5bb";
+    static public String genesisTxInBytes = "04ffff001d0104234e756d6d6920446576656c6f706d656e74205374617274732030312f31302f32303137";   //"Nummi Development Starts 01/10/2017"
+    //static public String genesisTxInBytes = "04c862010e62c8fe06845532b617db0a011a885767f1476d22d9e73e3fabc830a9606df7d4549b25e1162aaee619dbf98d09e53899ada5743aefb8afb7fde3f5bb";
 
     //TODO FIX ME
     static public String genesisTxOutBytes = "045ba3a70a4366913e0441840f2278d74b154ef4d2dfd0f75a6bf767c3f30a807d9c2595a9b1d2950fe7ee95544145ead55f22e32086c4cc95ee8d3b8aaa6f8929";
+
+    //static public String genesisTxOutBytes = "04c862010e62c8fe06845532b617db0a011a885767f1476d22d9e73e3fabc830a9606df7d4549b25e1162aaee619dbf98d09e53899ada5743aefb8afb7fde3f5bb"
 
     //net.cpp strDNSSeed
     static public String[] dnsSeeds = new String[] {
