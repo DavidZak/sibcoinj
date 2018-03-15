@@ -119,8 +119,8 @@ public class CoinDefinition {
     static public String genesisHash = "00000251edd63ccb47baf6bc379a892f90c567489cff8982fc6ce50f9f545869";
     //static public String genesisMerkleRoot = "f70829504e50b5f779431b63f45df2b3149b287e77800605a2cd45808c1ef3ca";
     static public String genesisMerkleRoot = "160cde32a85bf2731eb2cbdb1c7329a0a8560bc8d2ea30ba4792f464f2fb1cdd";
-    //static public int genesisBlockValue = 20;                                                              //main.cpp: LoadBlockIndex
-    static public int genesisBlockValue = 50;
+    static public int genesisBlockValue = 20;                                                              //main.cpp: LoadBlockIndex
+    //static public int genesisBlockValue = 50;
     //taken from the raw data of the block explorer
     static public String genesisTxInBytes = "04ffff001d0104234e756d6d6920446576656c6f706d656e74205374617274732030312f31302f32303137";   //"Nummi Development Starts 01/10/2017"
     //static public String genesisTxInBytes = "04c862010e62c8fe06845532b617db0a011a885767f1476d22d9e73e3fabc830a9606df7d4549b25e1162aaee619dbf98d09e53899ada5743aefb8afb7fde3f5bb";
