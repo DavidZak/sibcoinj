@@ -134,9 +134,9 @@ public class CoinDefinition {
     static public String[] dnsSeeds = new String[] {
 //            "192.168.0.117",
             //"193.124.93.72"
-            //"nummi.org",
+            "nummi.org",
             "91.228.155.20",
-            //"seed.nummi.org",
+            "seed.nummi.org",
             "91.228.153.32"
     };
 
@@ -187,9 +187,13 @@ public class CoinDefinition {
 //            "testnet-seed.darkcoin.qa",
 //            "23.23.186.131"
             //"nummi.org",
-            "91.228.155.20",
+            //"91.228.155.20",
             //"seed.nummi.org",
-            "91.228.153.32"
+            //"91.228.153.32"
+            "nummidot.io",
+            "testnet-seed.nummidot.io",
+            "masternode.io",
+            "test.dnsseed.masternode.io"
     };
     //from main.h: CAlert::CheckSignature
     public static final String SATOSHI_KEY = "0426af3a693d83e45eca2c3faab1157c0294ac7de5b0ae4cefe8d2b98370a8f50ef1653fb46142d7d2cae61cdb57f628193df1a55f49f547458ab909210fcd5cde";
