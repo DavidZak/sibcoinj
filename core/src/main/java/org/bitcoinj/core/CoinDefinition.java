@@ -112,13 +112,13 @@ public class CoinDefinition {
     public static final long PacketMagic = 0x1cbdcb4f;
 
     //Genesis Block Information from main.cpp: LoadBlockIndex
-    static public long genesisBlockDifficultyTarget = (0x1e0ffff0L);         //main.cpp: LoadBlockIndex
-    static public long genesisBlockTime = 1516459318L;                       //main.cpp: LoadBlockIndex
+    static public long genesisBlockDifficultyTarget = (0x1e0ffff0);         //main.cpp: LoadBlockIndex
+    static public long genesisBlockTime = 1516459318;                       //main.cpp: LoadBlockIndex
     static public long genesisBlockNonce = (2960513);                         //main.cpp: LoadBlockIndex
     //static public String genesisHash = "00000e844873ac38494c38c7f5e1f1fa79d2e334ad8be676e5d8d1db6edaba24"; //main.cpp: hashGenesisBlock
-    static public String genesisHash = "00000251edd63ccb47baf6bc379a892f90c567489cff8982fc6ce50f9f545869";
+    static public String genesisHash = "0x00000251edd63ccb47baf6bc379a892f90c567489cff8982fc6ce50f9f545869";
     //static public String genesisMerkleRoot = "f70829504e50b5f779431b63f45df2b3149b287e77800605a2cd45808c1ef3ca";
-    static public String genesisMerkleRoot = "160cde32a85bf2731eb2cbdb1c7329a0a8560bc8d2ea30ba4792f464f2fb1cdd";
+    static public String genesisMerkleRoot = "0x160cde32a85bf2731eb2cbdb1c7329a0a8560bc8d2ea30ba4792f464f2fb1cdd";
     static public int genesisBlockValue = 20;                                                              //main.cpp: LoadBlockIndex
     //static public int genesisBlockValue = 50;
     //taken from the raw data of the block explorer
