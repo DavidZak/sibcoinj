@@ -55,7 +55,7 @@ public class CoinDefinition {
 
     public static boolean checkpointFileSupport = true;
 
-    public static final int TARGET_TIMESPAN = (int)(24 * 60 * 60) * (31 * 2);  // 24 hours per difficulty cycle, on average.
+    public static final int TARGET_TIMESPAN = (int)(24 * 60 * 60);  // 24 hours per difficulty cycle, on average.
     public static final int TARGET_SPACING = (int)(5 * 60);  // 2.5 minutes seconds per block.
     public static final int INTERVAL = TARGET_TIMESPAN / TARGET_SPACING;  //57 blocks
 
@@ -82,8 +82,12 @@ public class CoinDefinition {
     //
     // Dash 0.12.1.x
     //
-    public static final int PROTOCOL_VERSION = 70206;          //version.h PROTOCOL_VERSION
-    public static final int MIN_PROTOCOL_VERSION = 70206;        //version.h MIN_PROTO_VERSION
+    //public static final int PROTOCOL_VERSION = 70206;          //version.h PROTOCOL_VERSION
+    //public static final int MIN_PROTOCOL_VERSION = 70206;        //version.h MIN_PROTO_VERSION
+    //public static final int BIP0031_VERSION = 60000;
+
+    public static final int PROTOCOL_VERSION = 70103;          //version.h PROTOCOL_VERSION
+    public static final int MIN_PROTOCOL_VERSION = 70066;        //version.h MIN_PROTO_VERSION
     public static final int BIP0031_VERSION = 60000;
 
 
@@ -104,8 +108,8 @@ public class CoinDefinition {
     public static final boolean allowBitcoinPrivateKey = true;
     public static final int dumpedPrivateKeyHeader = 128;   //common to all coins
     public static final long oldPacketMagic = 0xfbc0b6db;      //0xfb, 0xc0, 0xb6, 0xdb
-    public static final long PacketMagic = 0x1cbdcb4f;
-
+   // public static final long PacketMagic = 0x1cbdcb4f;
+    public static final long PacketMagic = 0xbf0c6bbd;
 
     //Genesis Block Information from main.cpp: LoadBlockIndex
     static public long genesisBlockDifficultyTarget = (0x1e0ffff0L);         //main.cpp: LoadBlockIndex
@@ -115,7 +119,8 @@ public class CoinDefinition {
     static public String genesisHash = "00000251edd63ccb47baf6bc379a892f90c567489cff8982fc6ce50f9f545869";
     //static public String genesisMerkleRoot = "f70829504e50b5f779431b63f45df2b3149b287e77800605a2cd45808c1ef3ca";
     static public String genesisMerkleRoot = "160cde32a85bf2731eb2cbdb1c7329a0a8560bc8d2ea30ba4792f464f2fb1cdd";
-    static public int genesisBlockValue = 20;                                                              //main.cpp: LoadBlockIndex
+    //static public int genesisBlockValue = 20;                                                              //main.cpp: LoadBlockIndex
+    static public int genesisBlockValue = 50;
     //taken from the raw data of the block explorer
     static public String genesisTxInBytes = "04ffff001d0104234e756d6d6920446576656c6f706d656e74205374617274732030312f31302f32303137";   //"Nummi Development Starts 01/10/2017"
     //static public String genesisTxInBytes = "04c862010e62c8fe06845532b617db0a011a885767f1476d22d9e73e3fabc830a9606df7d4549b25e1162aaee619dbf98d09e53899ada5743aefb8afb7fde3f5bb";
