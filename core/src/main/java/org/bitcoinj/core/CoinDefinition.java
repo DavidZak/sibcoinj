@@ -108,9 +108,8 @@ public class CoinDefinition {
     public static final boolean allowBitcoinPrivateKey = true;
     public static final int dumpedPrivateKeyHeader = 128;   //common to all coins
     public static final long oldPacketMagic = 0xfbc0b6db;      //0xfb, 0xc0, 0xb6, 0xdb
-    public static final long PacketMagic = 0xbf0c6bbd;      //0xfb, 0xc0, 0xb6, 0xdb
     // public static final long PacketMagic = 0x1cbdcb4f;
-    //public static final long PacketMagic = 0x1cbdcb4f;
+    public static final long PacketMagic = 0x1cbdcb4f;
 
     //Genesis Block Information from main.cpp: LoadBlockIndex
     static public long genesisBlockDifficultyTarget = (0x1e0ffff0);         //main.cpp: LoadBlockIndex
@@ -123,12 +122,12 @@ public class CoinDefinition {
     static public int genesisBlockValue = 20;                                                              //main.cpp: LoadBlockIndex
     //static public int genesisBlockValue = 50;
     //taken from the raw data of the block explorer
-    static public String genesisTxInBytes = "4e554d4d4920434f494e204e65772043727970726f2043757272656e637920323031382f30312f3230";   //"Nummi Development Starts 01/10/2017"
-    //static public String genesisTxInBytes = "04c862010e62c8fe06845532b617db0a011a885767f1476d22d9e73e3fabc830a9606df7d4549b25e1162aaee619dbf98d09e53899ada5743aefb8afb7fde3f5bb";
+    //static public String genesisTxInBytes = "4e554d4d4920434f494e204e65772043727970726f2043757272656e637920323031382f30312f3230";   //"Nummi Development Starts 01/10/2017"
+    static public String genesisTxInBytes = "04c862010e62c8fe06845532b617db0a011a885767f1476d22d9e73e3fabc830a9606df7d4549b25e1162aaee619dbf98d09e53899ada5743aefb8afb7fde3f5bb";
 
     //TODO FIX ME
-    static public String genesisTxOutBytes = "04c862010e62c8fe06845532b617db0a011a885767f1476d22d9e73e3fabc830a9606df7d4549b25e1162aaee619dbf98d09e53899ada5743aefb8afb7fde3f5bb";
-
+    //static public String genesisTxOutBytes = "04c862010e62c8fe06845532b617db0a011a885767f1476d22d9e73e3fabc830a9606df7d4549b25e1162aaee619dbf98d09e53899ada5743aefb8afb7fde3f5bb";
+    static public String genesisTxOutBytes = "4e554d4d4920434f494e204e65772043727970726f2043757272656e637920323031382f30312f3230";
     //static public String genesisTxOutBytes = "04c862010e62c8fe06845532b617db0a011a885767f1476d22d9e73e3fabc830a9606df7d4549b25e1162aaee619dbf98d09e53899ada5743aefb8afb7fde3f5bb"
 
     //net.cpp strDNSSeed
